@@ -1,17 +1,14 @@
-# import inbuilt standard input output
-from sys import stdin, stdout
-
-
 # suppose a function called main() and
 # all the operations are performed
+
+
 def main():
     # for read and iterate all the lines
     test_amount = int(input())
     for test in range(test_amount):
         n, m = map(int, input().split(" "))
-        # print with stdout.write method the string parsed line
+        # print result
         print(get_sonars_amount(n, m))
-    # call the main method
 
 
 def get_sonars_amount(n, m):
