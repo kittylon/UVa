@@ -8,7 +8,7 @@ def main():
     print('Lumberjacks:')
 
     for _ in range(groups):
-        group = list(map(int,input().split()))
+        group = list(map(int, input().split()))
 
         if is_sort_asc(group) or is_sort_desc(group):
             print('Ordered')
